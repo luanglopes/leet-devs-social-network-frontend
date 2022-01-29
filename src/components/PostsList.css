@@ -1,0 +1,47 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.list-item {
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.list-item .timer {
+  margin-bottom: 8px;
+}
+
+.list-item .content {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.list-item p {
+  margin: 0;
+}
+
+.likes-counter {
+  align-self: flex-end;
+}
+
+.likes-counter button {
+  align-self: flex-end;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #0af;
+  color: #fff;
+}
+
+.likes-counter span {
+  margin-right: 8px;
+}

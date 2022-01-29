@@ -1,0 +1,32 @@
+.form-container {
+  padding: 16px;
+}
+
+.form-container, .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.form-title {
+  margin-bottom: 24px;
+}
+
+.form-textarea {
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  resize: vertical;
+  padding: 10px;
+}
+
+.form-button {
+  display: inline;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  align-self: flex-end;
+}
